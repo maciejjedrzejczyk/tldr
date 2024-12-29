@@ -50,11 +50,9 @@ Replace `<url-to-summarize>` with the URL of the web page you want to summarize.
 
 ## Apple Shortcuts Integration
 
-Get the shortcut [here](https://www.icloud.com/shortcuts/a5c552ad101d4c828be7b0b11e6914a5).
+Get the shortcut [here](https://www.icloud.com/shortcuts/a5c552ad101d4c828be7b0b11e6914a5). Open it on your Apple device and modify the backend URL for your local instance of _tldr_. Alternatively, you can create an Apple Shortcut from scratch. Here's how to set it up:
 
-You can create an Apple Shortcut to easily use this summarizer on your iOS device. Here's how to set it up:
-
-1. Open the Shortcuts app on your iOS device.
+1. Open the Shortcuts app on your Apple device.
 2. Create a new shortcut and name it ex: "ollama-summarize".
 3. Add the following actions:
    - "Receive" action: Set it to receive Safari web pages and URLs from Share Sheet and Quick Actions.
@@ -74,6 +72,7 @@ To use the shortcut:
 
 ## Important Notes
 
+- Some websites have policies against content scraping and may prevent the app from processing request.
 - Ensure that your server is accessible from your Apple device.
 - For security reasons, it's recommended to use HTTPS and implement proper authentication for production use.
 - The summarization quality depends on the Ollama AI model used.
