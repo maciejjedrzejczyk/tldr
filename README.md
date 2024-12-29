@@ -64,6 +64,8 @@ To use the shortcut:
 
 Note: Replace "https://tldr.mxjlab.duckdns.org/" with the actual URL where your summarizer app is hosted.
 
+![Alt text](apple-shortcut.png)
+
 ## Important Notes
 
 - Ensure that your server is accessible from your iOS device.
