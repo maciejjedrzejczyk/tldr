@@ -13,6 +13,18 @@ This application provides a simple way to summarize web content on Apple devices
 - Integrates with Apple Shortcuts for easy mobile use
 - Works with any browser on any Apple device
 
+## High level diagram
+
+![Alt text](diagram.png)
+
+This workflow diagram illustrates the process of using Apple devices to interact with tldr. Here's a step-by-step description:
+
+1. Apple Devices: The process starts with Apple devices.
+2. Browsers: From these devices, users navigate to a URL using any browsers.
+3. Apple Services: The URL is then shared with Apple's Shortcuts app.
+4. Backend Service: The Shortcuts app forwards the URL to tldr backend service.
+5. AI Model: Finally, the backend service submits a prompt to Ollama.
+
 ## Setup and Installation
 
 ### Prerequisites
