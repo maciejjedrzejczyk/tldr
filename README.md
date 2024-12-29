@@ -1,8 +1,8 @@
 # tldr
 
-This application provides a simple way to summarize web content using Ollama. It fetches the content of a given URL, sends it to an AI model managed by a local instance of Ollama for summarization, and returns the result in a readable format.
+This application provides a simple way to summarize web content on iOS devices using Ollama as the backend. The Apple Shortcut fetches the URL and submits it to the application. The application scraps the content of a received URL, sends it to an AI model managed by a local instance of Ollama for summarization, and returns the result in a readable format.
 
-![Alt text](apple-shortcut.gif)
+<img src="apple-shortcut.gif" alt="tldr" width="500" height="800">
 
 ## Features
 
