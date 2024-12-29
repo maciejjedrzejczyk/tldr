@@ -46,6 +46,8 @@ Replace `<url-to-summarize>` with the URL of the web page you want to summarize.
 
 ## Apple Shortcuts Integration
 
+Get the shortcut [here](https://www.icloud.com/shortcuts/a5c552ad101d4c828be7b0b11e6914a5).
+
 You can create an Apple Shortcut to easily use this summarizer on your iOS device. Here's how to set it up:
 
 1. Open the Shortcuts app on your iOS device.
