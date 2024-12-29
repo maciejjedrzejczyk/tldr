@@ -62,10 +62,10 @@ Replace `<url-to-summarize>` with the URL of the web page you want to summarize.
 
 ## Apple Shortcuts Integration
 
-Get the shortcut [here](https://www.icloud.com/shortcuts/bd8b25668f0a4caead0894505a374942). Open it on your Apple device and modify the backend URL for your local instance of _tldr_. Alternatively, you can create an Apple Shortcut from scratch. Here's how to set it up:
+Get the shortcut [here](https://www.icloud.com/shortcuts/08394cee00724922ad1719b2f643b4f6). Open it on your Apple device and modify the backend URL (<your_backend_url_here> field) for your local instance of _tldr_. Alternatively, you can create an Apple Shortcut from scratch. Here's how to set it up:
 
 1. Open the Shortcuts app on your Apple device.
-2. Create a new shortcut and name it ex: "ollama-summarize".
+2. Create a new shortcut and name it ex: "tldr-shortcut".
 3. Add the following actions:
    - "Receive" action: Set it to receive Safari web pages and URLs from Share Sheet and Quick Actions.
    - "Combine Text" action:
@@ -73,9 +73,7 @@ Get the shortcut [here](https://www.icloud.com/shortcuts/bd8b25668f0a4caead08945
      - Second input: Shortcut Input
    - "Open URLs" action: Use the Combined Text from the previous step.
   
-![Alt text](apple-shortcut.png)
-
-(Note: Replace "https://tldr.mxjlab.duckdns.org/" with the actual URL where your summarizer app is hosted.)
+![Alt text](shortcut-setup.png)
 
 To use the shortcut:
 1. While browsing a web page on your browser, tap the Share button.
