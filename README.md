@@ -72,15 +72,15 @@ Get the shortcut [here](https://www.icloud.com/shortcuts/bd8b25668f0a4caead08945
      - First input: Your server URL
      - Second input: Shortcut Input
    - "Open URLs" action: Use the Combined Text from the previous step.
-
-To use the shortcut:
-1. While browsing a web page on your browser, tap the Share button.
-2. Select your "ollama-summarize" shortcut from the share sheet.
-3. The shortcut will send the URL to your summarizer app and open the result in a new browser tab.
-
+  
 ![Alt text](apple-shortcut.png)
 
 (Note: Replace "https://tldr.mxjlab.duckdns.org/" with the actual URL where your summarizer app is hosted.)
+
+To use the shortcut:
+1. While browsing a web page on your browser, tap the Share button.
+2. Select your shortcut from the share sheet.
+3. The shortcut will send the URL to your backend and open the result in a new browser tab.
 
 ## Important Notes
 
@@ -92,9 +92,9 @@ To use the shortcut:
 ## Troubleshooting
 
 If you encounter any issues:
-1. Ensure Docker containers are running correctly.
+1. Ensure Docker containers and Ollama server are running correctly.
 2. Check that the URL you're trying to summarize is accessible.
-3. Verify that your iOS device can reach the server running the Docker containers.
+3. Verify that your Apple device can reach the server running the Docker containers.
 
 ## Contributing
 
