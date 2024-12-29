@@ -17,8 +17,9 @@ This application provides a simple way to summarize web content on Apple devices
 
 ### Prerequisites
 
+- [Ollama server](https://ollama.com/) and [llama3.2:1b](https://ollama.com/library/llama3.2:1b) pre-installed and ready to serve (the model and service URL is modifiable, see line 24 and 28 of [summarizer_app.py](https://github.com/maciejjedrzejczyk/tldr/blob/main/summarizer_app.py).)
 - Docker and Docker Compose
-- (Optional) An iOS device for Apple Shortcuts integration
+- An Apple device with Apple Shortcut
 
 ### Docker Setup
 
