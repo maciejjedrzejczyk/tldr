@@ -11,6 +11,7 @@ This application provides a simple way to summarize web content on iOS devices u
 - Returns the summary in Markdown format
 - Can be run as a Docker container
 - Integrates with Apple Shortcuts for easy mobile use
+- Works with any browser on any Apple device
 
 ## Setup and Installation
 
@@ -57,22 +58,22 @@ You can create an Apple Shortcut to easily use this summarizer on your iOS devic
 3. Add the following actions:
    - "Receive" action: Set it to receive Safari web pages and URLs from Share Sheet and Quick Actions.
    - "Combine Text" action:
-     - First input: Your server URL (e.g., "https://tldr.mxjlab.duckdns.org/")
+     - First input: Your server URL
      - Second input: Shortcut Input
    - "Open URLs" action: Use the Combined Text from the previous step.
 
 To use the shortcut:
-1. While browsing a web page in Safari, tap the Share button.
+1. While browsing a web page on your browser, tap the Share button.
 2. Select your "ollama-summarize" shortcut from the share sheet.
 3. The shortcut will send the URL to your summarizer app and open the result in a new browser tab.
 
-Note: Replace "https://tldr.mxjlab.duckdns.org/" with the actual URL where your summarizer app is hosted.
-
 ![Alt text](apple-shortcut.png)
+
+(Note: Replace "https://tldr.mxjlab.duckdns.org/" with the actual URL where your summarizer app is hosted.)
 
 ## Important Notes
 
-- Ensure that your server is accessible from your iOS device.
+- Ensure that your server is accessible from your Apple device.
 - For security reasons, it's recommended to use HTTPS and implement proper authentication for production use.
 - The summarization quality depends on the Ollama AI model used.
 
