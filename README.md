@@ -15,7 +15,7 @@ This application provides a simple way to summarize web content on Apple devices
 
 ## High level diagram
 
-![Alt text](diagram.png)
+![Alt text](tldr-diagram.png)
 
 This workflow diagram illustrates the process of using Apple devices to interact with tldr. Here's a step-by-step description:
 
