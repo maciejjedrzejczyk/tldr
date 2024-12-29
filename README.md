@@ -2,6 +2,8 @@
 
 This application provides a simple way to summarize web content using Ollama. It fetches the content of a given URL, sends it to an AI model managed by a local instance of Ollama for summarization, and returns the result in a readable format.
 
+![Alt text](apple-shortcut.gif)
+
 ## Features
 
 - Fetches web content from a given URL
