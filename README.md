@@ -29,7 +29,7 @@ This workflow diagram illustrates the process of using Apple devices to interact
 
 ### Prerequisites
 
-- [Ollama server](https://ollama.com/) and [llama3.2:1b](https://ollama.com/library/llama3.2:1b) pre-installed and ready to serve (the model and service URL is modifiable, see line 24 and 28 of [summarizer_app.py](https://github.com/maciejjedrzejczyk/tldr/blob/main/summarizer_app.py).)
+- [Ollama server](https://ollama.com/) and [llama3.2:1b](https://ollama.com/library/llama3.2:1b) pre-installed and ready to serve (the model and service URL is modifiable, see line 27 and 30 of [summarizer_app.py](https://github.com/maciejjedrzejczyk/tldr/blob/main/summarizer_app.py).)
 - Docker and Docker Compose
 - An Apple device with Apple Shortcut
 
