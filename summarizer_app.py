@@ -22,9 +22,11 @@ def fetch_website_content(url):
 def summarize_with_ollama(content):
     try:
         ollama_url = "http://host.docker.internal:11434/api/generate"
+        prompt = "Summarize the following text. Start with an executive summary of 200 words or less. Then, provide: 1) A one-sentence overview. 2) 3-5 key points. 3) Critical data or statistics. 4) 2-3 actionable items. 5) Any time-sensitive information. 6) Potential impact. Use bullet points for clarity. Text to summarize:\n\n{content}\n\nSummary:"
+
         payload = {
-            "model": "llama3.2",
-            "prompt": f"Please summarize the following text:\n\n{content}\n\nSummary:",
+            "model": "llama3.2:1b",
+            "prompt": prompt.format(content=content),
             "stream": False
         }
         response = requests.post(ollama_url, json=payload)
@@ -57,7 +59,7 @@ def summarize(url):
 {summary}
 
 ---
-Summarized by Ollama
+Summarized by Ollama with support of Llama3.2:1b model.
     """
 
     return Response(markdown_output, mimetype='text/markdown')
