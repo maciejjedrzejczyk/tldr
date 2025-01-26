@@ -1,4 +1,4 @@
-# tldr
+# tldr a URL via Apple Shortcut
 
 This application provides a simple way to summarize web content on Apple devices using Ollama as the backend. The Apple Shortcut fetches the URL and submits it to the application. The python application scraps the content of a received URL, sends it to an AI model managed by a local instance of Ollama for summarization, and returns the result in a readable format.
 
